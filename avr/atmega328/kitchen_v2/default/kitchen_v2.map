@@ -1,0 +1,770 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+                              ds18b20.o (__mulsi3)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+                              din_ind.o (__udivmodqi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                              hcsr.o (__udivmodhi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+                              din_ind.o (__divmodhi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o)
+                              ds18b20.o (__divmodsi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                              kitchen_v2.o (__do_copy_data)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                              kitchen_v2.o (__do_clear_bss)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+digit               0x2               din_ind.o
+what_write          0x1               eep_328.o
+GTStates            0xf               maintimer16.o
+pdata_x32           0x2               eep_328.o
+address             0x1               eep_328.o
+temp_data           0x2               ds18b20.o
+OWIStatus           0x1               OWIIntFunc.o
+num_elements        0x1               eep_328.o
+temperature         0x4               ds18b20.o
+d1r                 0x1               din_ind.o
+segm                0x1               din_ind.o
+parray_x8           0x2               eep_328.o
+Broadcast_Messages  0x0               messages.o
+pdata_x16           0x2               eep_328.o
+GTDelay             0x1e              maintimer16.o
+OWIDataBuffer       0x2               OWIIntFunc.o
+d3r                 0x1               din_ind.o
+parray_x32          0x2               eep_328.o
+d0r                 0x1               din_ind.o
+Messages            0x8               messages.o
+parray_x16          0x2               eep_328.o
+OWIBufferLength     0x1               OWIIntFunc.o
+d2r                 0x1               din_ind.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD kitchen_v2.o
+LOAD alg.o
+LOAD din_ind.o
+LOAD eep_328.o
+LOAD hcsr.o
+LOAD ISR_timers.o
+LOAD kn1x.o
+LOAD kn2x.o
+LOAD led.o
+LOAD maintimer16.o
+LOAD messages.o
+LOAD ds18b20.o
+LOAD OWIcrc.o
+LOAD OWIIntFunc.o
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5\libc.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x14d6
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000000a2                __vector_24
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_23
+                0x000000a2                __vector_25
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_7
+                0x000000a2                __vector_5
+                0x000000a2                __vector_4
+                0x000000a2                __vector_2
+                0x000000a2                __vector_21
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_10
+                0x000000a2                __vector_20
+ .text          0x000000a6       0xfc kitchen_v2.o
+                0x000000a6                main
+ .text          0x000001a2      0x408 alg.o
+                0x000001a2                Algorithm
+                0x00000282                Setup
+                0x00000498                NasosOn
+                0x000004a2                NasosOff
+                0x000004b0                ProcessNasos
+                0x000004e4                InitPortsNasos
+                0x000004ea                BuzzerOn
+                0x000004ee                BuzzerOff
+                0x000004f2                BuzzerOnOff
+                0x000004fc                InitPortsBuzzer
+                0x00000502                BuzzerSound
+                0x0000056c                ReadingDataFromEeprom
+ .text          0x000005aa      0x2a2 din_ind.o
+                0x000005aa                minus
+                0x000005ec                segm_set
+                0x000006f4                di
+                0x00000834                InitPortsDI
+ .text          0x0000084c       0xc0 eep_328.o
+                0x0000084c                __vector_22
+                0x000008d0                ReadEeprom_x16
+                0x000008f2                WriteEeprom_x16
+ .text          0x0000090c      0x242 hcsr.o
+                0x0000090c                NasosHotWaterOn
+                0x00000910                NasosHotWaterOff
+                0x00000914                HotWater
+                0x00000a78                InitPortsNasosHotWater
+                0x00000a80                __vector_1
+                0x00000b16                InitPortsTrig
+                0x00000b1c                StartTrig
+ .text          0x00000b4e       0x84 ISR_timers.o
+                0x00000b4e                __vector_16
+                0x00000b62                __vector_14
+                0x00000baa                __vector_9
+                0x00000bbe                __vector_11
+ .text          0x00000bd2      0x108 kn1x.o
+                0x00000bd2                ProcessKn1
+                0x00000cd4                InitPortsKn1
+ .text          0x00000cda      0x10a kn2x.o
+                0x00000cda                ProcessKn2
+                0x00000dde                InitPortsKn2
+ .text          0x00000de4       0x60 led.o
+                0x00000de4                InitPortsLedRed
+                0x00000dea                InitPortsLedBlue
+                0x00000df0                InitPortsLedGreen
+                0x00000df6                InitPortsLedWhite
+                0x00000dfc                TestLedRed
+                0x00000e06                TestLedBlue
+                0x00000e10                TestLedGreen
+                0x00000e1a                TestLedWhite
+                0x00000e24                LedRedOn
+                0x00000e28                LedRedOff
+                0x00000e2c                LedBlueOn
+                0x00000e30                LedBlueOff
+                0x00000e34                LedGreenOn
+                0x00000e38                LedGreenOff
+                0x00000e3c                LedWhiteOn
+                0x00000e40                LedWhiteOff
+ .text          0x00000e44       0xd0 maintimer16.o
+                0x00000e44                StartGTimer
+                0x00000e76                StopGTimer
+                0x00000e88                ExpGTimer
+                0x00000ed2                InitGTimers
+                0x00000efa                SysTick_Handler
+ .text          0x00000f14       0x9c messages.o
+                0x00000f14                InitMessages
+                0x00000f36                SendMessage
+                0x00000f4a                SendBroadcastMessage
+                0x00000f5e                ProcessMessages
+                0x00000f80                GetMessage
+                0x00000f98                GetBroadcastMessage
+ .text          0x00000fb0      0x13a ds18b20.o
+                0x00000fb0                ProcessDS18B20
+ .text          0x000010ea       0x86 OWIcrc.o
+                0x000010ea                OWI_ComputeCRC8
+                0x0000110c                OWI_ComputeCRC16
+                0x00001136                OWI_CheckRomCRC
+ .text          0x00001170      0x244 OWIIntFunc.o
+                0x00001170                OWI_Init
+                0x00001186                OWI_DetectPresence
+                0x000011a2                OWI_TransmitData
+                0x000011c4                OWI_ReceiveData
+                0x000011f8                __vector_18
+                0x00001304                __vector_19
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x000013b4        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x000013b4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000013b4       0x3e c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+                0x000013b4                __mulsi3
+ .text.libgcc   0x000013f2       0x18 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+                0x000013f2                __udivmodqi4
+ .text.libgcc   0x0000140a       0x28 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000140a                __udivmodhi4
+ .text.libgcc   0x00001432       0x26 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+                0x00001432                _div
+                0x00001432                __divmodhi4
+ .text.libgcc   0x00001458       0x36 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o)
+                0x00001458                __divmodsi4
+ .text.libgcc   0x0000148e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000148e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000148e        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000148e       0x44 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000148e                __udivmodsi4
+                0x000014d2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000014d2        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+                0x000014d2                _exit
+                0x000014d2                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000014d2        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000014d6                _etext = .
+
+.data           0x00800100        0xa load address 0x000014d6
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x1 kitchen_v2.o
+                0x00800100                time_di
+ .data          0x00800101        0x5 alg.o
+                0x00800101                t_min
+                0x00800103                t_max
+ .data          0x00800106        0x1 din_ind.o
+ .data          0x00800107        0x0 eep_328.o
+ .data          0x00800107        0x3 hcsr.o
+                0x00800107                counter_echo
+ .data          0x0080010a        0x0 ISR_timers.o
+ .data          0x0080010a        0x0 kn1x.o
+ .data          0x0080010a        0x0 kn2x.o
+ .data          0x0080010a        0x0 led.o
+ .data          0x0080010a        0x0 maintimer16.o
+ .data          0x0080010a        0x0 messages.o
+ .data          0x0080010a        0x0 ds18b20.o
+ .data          0x0080010a        0x0 OWIcrc.o
+ .data          0x0080010a        0x0 OWIIntFunc.o
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080010a                . = ALIGN (0x2)
+                0x0080010a                _edata = .
+                0x0080010a                PROVIDE (__data_end, .)
+
+.bss            0x0080010a       0x8b
+                0x0080010a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080010a        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x0080010a        0x8 kitchen_v2.o
+                0x0080010a                f1_hold
+                0x0080010b                f2_hold
+                0x0080010c                f3_hold
+                0x0080010d                f4_hold
+                0x0080010e                f5_hold
+                0x0080010f                holder
+                0x00800110                data_di
+ .bss           0x00800112        0x6 alg.o
+                0x00800112                work_mode
+                0x00800113                allow_red_led_flashing
+                0x00800114                allow_buzzer
+                0x00800115                tmp
+ .bss           0x00800118        0x6 din_ind.o
+                0x00800118                display_mode
+ .bss           0x0080011e        0x3 eep_328.o
+ .bss           0x00800121        0x2 hcsr.o
+                0x00800121                step_int0
+                0x00800122                show_distance_on_lcd
+ .bss           0x00800123        0x0 ISR_timers.o
+ .bss           0x00800123        0x6 kn1x.o
+ .bss           0x00800129        0x6 kn2x.o
+ .bss           0x0080012f        0x0 led.o
+ .bss           0x0080012f        0x3 maintimer16.o
+                0x0080012f                f1ms
+ .bss           0x00800132        0x0 messages.o
+ .bss           0x00800132        0xa ds18b20.o
+ .bss           0x0080013c        0x0 OWIcrc.o
+ .bss           0x0080013c        0x6 OWIIntFunc.o
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800142        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/avr5\libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800142        0x7 din_ind.o
+                0x00800142                digit
+                0x00800144                d1r
+                0x00800145                segm
+                0x00800146                d3r
+                0x00800147                d0r
+                0x00800148                d2r
+ COMMON         0x00800149        0xd eep_328.o
+                0x00800149                what_write
+                0x0080014a                pdata_x32
+                0x0080014c                address
+                0x0080014d                num_elements
+                0x0080014e                parray_x8
+                0x00800150                pdata_x16
+                0x00800152                parray_x32
+                0x00800154                parray_x16
+ COMMON         0x00800156       0x2d maintimer16.o
+                0x00800156                GTStates
+                0x00800165                GTDelay
+ COMMON         0x00800183        0x8 messages.o
+                0x00800183                Messages
+                0x00800183                Broadcast_Messages
+ COMMON         0x0080018b        0x6 ds18b20.o
+                0x0080018b                temp_data
+                0x0080018d                temperature
+ COMMON         0x00800191        0x4 OWIIntFunc.o
+                0x00800191                OWIStatus
+                0x00800192                OWIDataBuffer
+                0x00800194                OWIBufferLength
+                0x00800195                PROVIDE (__bss_end, .)
+                0x000014d6                __data_load_start = LOADADDR (.data)
+                0x000014e0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800195        0x0
+                0x00800195                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800195                PROVIDE (__noinit_end, .)
+                0x00800195                _end = .
+                0x00800195                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x6cc
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+
+.stabstr        0x00000000       0x85
+ *(.stabstr)
+ .stabstr       0x00000000       0x85 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.5.1/../../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1c0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 kitchen_v2.o
+ .debug_aranges
+                0x00000020       0x20 alg.o
+ .debug_aranges
+                0x00000040       0x20 din_ind.o
+ .debug_aranges
+                0x00000060       0x20 eep_328.o
+ .debug_aranges
+                0x00000080       0x20 hcsr.o
+ .debug_aranges
+                0x000000a0       0x20 ISR_timers.o
+ .debug_aranges
+                0x000000c0       0x20 kn1x.o
+ .debug_aranges
+                0x000000e0       0x20 kn2x.o
+ .debug_aranges
+                0x00000100       0x20 led.o
+ .debug_aranges
+                0x00000120       0x20 maintimer16.o
+ .debug_aranges
+                0x00000140       0x20 messages.o
+ .debug_aranges
+                0x00000160       0x20 ds18b20.o
+ .debug_aranges
+                0x00000180       0x20 OWIcrc.o
+ .debug_aranges
+                0x000001a0       0x20 OWIIntFunc.o
+
+.debug_pubnames
+                0x00000000      0x7f3
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x7a kitchen_v2.o
+ .debug_pubnames
+                0x0000007a      0x126 alg.o
+ .debug_pubnames
+                0x000001a0       0x84 din_ind.o
+ .debug_pubnames
+                0x00000224       0xbd eep_328.o
+ .debug_pubnames
+                0x000002e1       0xca hcsr.o
+ .debug_pubnames
+                0x000003ab       0x51 ISR_timers.o
+ .debug_pubnames
+                0x000003fc       0x32 kn1x.o
+ .debug_pubnames
+                0x0000042e       0x32 kn2x.o
+ .debug_pubnames
+                0x00000460      0x11e led.o
+ .debug_pubnames
+                0x0000057e       0x85 maintimer16.o
+ .debug_pubnames
+                0x00000603       0xab messages.o
+ .debug_pubnames
+                0x000006ae       0x43 ds18b20.o
+ .debug_pubnames
+                0x000006f1       0x4f OWIcrc.o
+ .debug_pubnames
+                0x00000740       0xb3 OWIIntFunc.o
+
+.debug_info     0x00000000     0x1a6d
+ *(.debug_info)
+ .debug_info    0x00000000      0x342 kitchen_v2.o
+ .debug_info    0x00000342      0x2ad alg.o
+ .debug_info    0x000005ef      0x216 din_ind.o
+ .debug_info    0x00000805      0x22a eep_328.o
+ .debug_info    0x00000a2f      0x270 hcsr.o
+ .debug_info    0x00000c9f       0xb2 ISR_timers.o
+ .debug_info    0x00000d51      0x116 kn1x.o
+ .debug_info    0x00000e67      0x116 kn2x.o
+ .debug_info    0x00000f7d      0x1a9 led.o
+ .debug_info    0x00001126      0x1f8 maintimer16.o
+ .debug_info    0x0000131e      0x1be messages.o
+ .debug_info    0x000014dc      0x1b4 ds18b20.o
+ .debug_info    0x00001690      0x161 OWIcrc.o
+ .debug_info    0x000017f1      0x27c OWIIntFunc.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xb52
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x17b kitchen_v2.o
+ .debug_abbrev  0x0000017b       0xb9 alg.o
+ .debug_abbrev  0x00000234      0x101 din_ind.o
+ .debug_abbrev  0x00000335       0xad eep_328.o
+ .debug_abbrev  0x000003e2      0x14a hcsr.o
+ .debug_abbrev  0x0000052c       0x3f ISR_timers.o
+ .debug_abbrev  0x0000056b       0x8f kn1x.o
+ .debug_abbrev  0x000005fa       0x8f kn2x.o
+ .debug_abbrev  0x00000689       0x4a led.o
+ .debug_abbrev  0x000006d3      0x127 maintimer16.o
+ .debug_abbrev  0x000007fa       0xd5 messages.o
+ .debug_abbrev  0x000008cf       0xfd ds18b20.o
+ .debug_abbrev  0x000009cc       0x79 OWIcrc.o
+ .debug_abbrev  0x00000a45      0x10d OWIIntFunc.o
+
+.debug_line     0x00000000     0x22a7
+ *(.debug_line)
+ .debug_line    0x00000000      0x2eb kitchen_v2.o
+ .debug_line    0x000002eb      0x456 alg.o
+ .debug_line    0x00000741      0x523 din_ind.o
+ .debug_line    0x00000c64      0x1c8 eep_328.o
+ .debug_line    0x00000e2c      0x390 hcsr.o
+ .debug_line    0x000011bc       0x99 ISR_timers.o
+ .debug_line    0x00001255      0x20d kn1x.o
+ .debug_line    0x00001462      0x20d kn2x.o
+ .debug_line    0x0000166f      0x25c led.o
+ .debug_line    0x000018cb      0x1c4 maintimer16.o
+ .debug_line    0x00001a8f      0x1b9 messages.o
+ .debug_line    0x00001c48      0x1eb ds18b20.o
+ .debug_line    0x00001e33      0x151 OWIcrc.o
+ .debug_line    0x00001f84      0x323 OWIIntFunc.o
+
+.debug_frame    0x00000000      0x560
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 kitchen_v2.o
+ .debug_frame   0x00000020       0xd0 alg.o
+ .debug_frame   0x000000f0       0x50 din_ind.o
+ .debug_frame   0x00000140       0x40 eep_328.o
+ .debug_frame   0x00000180       0x80 hcsr.o
+ .debug_frame   0x00000200       0x50 ISR_timers.o
+ .debug_frame   0x00000250       0x30 kn1x.o
+ .debug_frame   0x00000280       0x30 kn2x.o
+ .debug_frame   0x000002b0      0x110 led.o
+ .debug_frame   0x000003c0       0x60 maintimer16.o
+ .debug_frame   0x00000420       0x70 messages.o
+ .debug_frame   0x00000490       0x20 ds18b20.o
+ .debug_frame   0x000004b0       0x40 OWIcrc.o
+ .debug_frame   0x000004f0       0x70 OWIIntFunc.o
+
+.debug_str      0x00000000      0x7f4
+ *(.debug_str)
+ .debug_str     0x00000000      0x166 kitchen_v2.o
+                                0x1a2 (size before relaxing)
+ .debug_str     0x00000166       0xe5 alg.o
+                                0x1ae (size before relaxing)
+ .debug_str     0x0000024b       0x4c din_ind.o
+                                0x101 (size before relaxing)
+ .debug_str     0x00000297       0xb6 eep_328.o
+                                0x179 (size before relaxing)
+ .debug_str     0x0000034d       0xa8 hcsr.o
+                                0x1b8 (size before relaxing)
+ .debug_str     0x000003f5       0x3f ISR_timers.o
+                                 0xd5 (size before relaxing)
+ .debug_str     0x00000434       0x67 kn1x.o
+                                0x10e (size before relaxing)
+ .debug_str     0x0000049b       0x22 kn2x.o
+                                0x10e (size before relaxing)
+ .debug_str     0x000004bd       0xd5 led.o
+                                0x173 (size before relaxing)
+ .debug_str     0x00000592       0x74 maintimer16.o
+                                0x121 (size before relaxing)
+ .debug_str     0x00000606       0x7e messages.o
+                                0x125 (size before relaxing)
+ .debug_str     0x00000684       0x2e ds18b20.o
+                                0x126 (size before relaxing)
+ .debug_str     0x000006b2       0x65 OWIcrc.o
+                                 0xfb (size before relaxing)
+ .debug_str     0x00000717       0xdd OWIIntFunc.o
+                                0x1b8 (size before relaxing)
+
+.debug_loc      0x00000000      0x4e5
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x24 din_ind.o
+ .debug_loc     0x00000024       0x2a eep_328.o
+ .debug_loc     0x0000004e       0x45 hcsr.o
+ .debug_loc     0x00000093       0x28 kn1x.o
+ .debug_loc     0x000000bb       0x28 kn2x.o
+ .debug_loc     0x000000e3       0x4d maintimer16.o
+ .debug_loc     0x00000130       0xd4 messages.o
+ .debug_loc     0x00000204       0x1e ds18b20.o
+ .debug_loc     0x00000222      0x21f OWIcrc.o
+ .debug_loc     0x00000441       0xa4 OWIIntFunc.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(kitchen_v2.elf elf32-avr)
+LOAD linker stubs
+
+.debug_pubtypes
+                0x00000000      0x287
+ .debug_pubtypes
+                0x00000000       0x51 kitchen_v2.o
+ .debug_pubtypes
+                0x00000051       0x37 alg.o
+ .debug_pubtypes
+                0x00000088       0x2a din_ind.o
+ .debug_pubtypes
+                0x000000b2       0x4e eep_328.o
+ .debug_pubtypes
+                0x00000100       0x38 hcsr.o
+ .debug_pubtypes
+                0x00000138       0x12 ISR_timers.o
+ .debug_pubtypes
+                0x0000014a       0x2b kn1x.o
+ .debug_pubtypes
+                0x00000175       0x2b kn2x.o
+ .debug_pubtypes
+                0x000001a0       0x1e led.o
+ .debug_pubtypes
+                0x000001be       0x2b maintimer16.o
+ .debug_pubtypes
+                0x000001e9       0x1e messages.o
+ .debug_pubtypes
+                0x00000207       0x43 ds18b20.o
+ .debug_pubtypes
+                0x0000024a       0x12 OWIcrc.o
+ .debug_pubtypes
+                0x0000025c       0x2b OWIIntFunc.o

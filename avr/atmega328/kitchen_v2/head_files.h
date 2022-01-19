@@ -1,0 +1,41 @@
+#ifndef head_files_h
+#define head_files_h
+
+#include "_def.h"
+
+//#include "adc.h"
+#include "alg.h"
+//#include "backlight.h"
+//#include "blink.h"
+//#include "bmp180.h"
+//#include "calclux.h"
+//#include "convert2ascii.h"
+#include "din_ind.h"
+//#include "ds1307.h"
+#include "ds18b20.h"
+//#include "eeprom_.h"
+#include "eep_328.h"
+//#include "errors_i2c.h"
+#include "hcsr.h"
+//#include "heater.h"
+//#include "i2c_sh2.h"
+#include "ISR_timers.h"
+#include "kn1x.h"
+#include "kn2x.h"
+//#include "led.h"
+//#include "lcd1602.h"
+#include "maintimer16.h"
+//#include "menu.h"
+#include "messages.h"
+//#include "quick.h"
+//#include "si7021.h"
+//#include "tsl2561.h"
+//#include "uart32_sh.h"
+
+#include "OWIcrc.h"
+#include "OWIdefs.h"
+#include "OWIDevSpec.h"
+#include "OWIISR.h"
+#include "OWIIntFunc.h"
+
+#endif
