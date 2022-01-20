@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=JMDnf9Mjnsk
 
-In this project a LED strip WS2812 2m / 120 leds, display ST7735 128*160, distance sensor HC-SR-04, atmospheric sensors BMP180 and Si7021 and a variable resistor are connected to the board. The log is output through the module UART-USB to the computer.
+In this project a LED strip WS2812 2m / 120 leds, display ST7735 128*160, distance sensor HC-SR-04, 
+atmospheric sensors BMP180 and Si7021 and a variable resistor are connected to the board. 
+The log is output through the module UART-USB to the computer.
 
 
