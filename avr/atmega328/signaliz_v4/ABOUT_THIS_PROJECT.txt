@@ -1,3 +1,11 @@
+A friend asked me to make an alarm for the garage.
+ATMega328, SIM800L.
+Description of the operation algorithm in the photo SIM800.jpg in the same folder.
+
+The program was made at the beginning of 2019.
+
 Знакомый попросил сделать сигнализацию для гаража. 
 ATMega328, SIM800L.
 Описание алгоритма работы на фото SIM800.jpg в этой же папке.
+
+Программа делалась в начале 2019 года.

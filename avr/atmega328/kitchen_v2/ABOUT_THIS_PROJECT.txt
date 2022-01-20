@@ -1,3 +1,15 @@
+Mini project for the house.
+Due to the lack of centralized hot water, I made a temporary solution:
+There is a 15 liter pot on the gas stove, it contains a 12 V fountain pump. The hose takes out the outgoing water over the sink.
+The HC-SR-04 sensor is installed above the sink under the shelf.
+When you bring your hand to the sensor at a distance of 3 to 15 cm, the pump in the pan turns on / off.
+Since the gas meter is common to the house, such a solution for obtaining warm water in the kitchen is cost-effective.
+When the water in the pan is heated above the set value, an audible alarm is triggered (the buzzer beeps).
+The temperature of the water in the pan is measured by the DS18B20 sensor in a sealed version.
+
+The program was made at the beginning of 2020.
+
+
 Минипроект для дома.
 По причине отсутствия централизованной горячей воды сделал временное решение: 
 На газовой плите стоит кастрюля 15 литров, в ней насос для фонтанов на 12 В. Шланга выводит исходящую воду над раковиной. 
@@ -6,3 +18,6 @@
 Поскольку счетчик газа общедомовой, то такое решение для получения теплой воды на кухне экономически выгодно.
 При нагревании воды в кастрюле более установленного значения срабатывает звуковая сигнализация (пищит зуммер). 
 Температура воды в кастрюле измеряется датчиком DS18B20 в герметичном исполнении.
+
+
+Программа делалась в начале 2020 года.
