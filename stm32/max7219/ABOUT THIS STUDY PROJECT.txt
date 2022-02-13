@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=1dzw6iWwi1o
+
+In this project a LED strip WS2812 2m / 120 leds, display ili9341 320*240, 4 matrix max7219 8*8 leds,
+atmospheric sensors BMP180 and Si7021 and a variable resistor are connected to the board STM32F407ZET6 
+The log is output through the module UART-USB to the computer.
+
+
