@@ -69,31 +69,14 @@ void ProcessShedulerUart(UART_HandleTypeDef *huart) {
 		break;
 
 		case END_UART:
-			for (u08 i=0;i<queue;i++) {
-				strcpy(array_of_strings[i],array_of_strings[i+1]);
-				newline_of_string[i]=newline_of_string[i+1];
-			}
-			queue--;
-			if (queue<0){
-				queue=0;
-			}
+			...
 			status_uart=FREE_UART;
 		break;
 
 		case FREE_UART:
 			if (queue==0)
 				return;
-			else {
-				strcpy(array_out,array_of_strings[0]);
-				status_uart=BUSY_UART;
-			//	StartGTimer(timer_inc_counter_system_reset,TIME_INC_COUNTER_SYSTEM_RESET);
-
-				if(newline_of_string[0]==1) {
-					strcat(array_out,"\r\n");
-					HAL_UART_Transmit_IT(huart,(unsigned char*)array_out,strlen(array_out));
-				}
-				HAL_UART_Transmit_IT(huart,(unsigned char*)array_out,strlen(array_out));
-			}
+			...
 		break;
 }//sw
 }//v
